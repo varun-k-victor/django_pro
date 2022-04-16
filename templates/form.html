@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+<head>
+<title>Form</title>
+</head>
+<body>
+<form action="#" method="post">
+{% csrf_token %}
+NAME:<br>
+<input type="text" name="nm" placeholder="enter name"><br>
+EMAIL:<br>
+<input type="email" name="em" placeholder="enter email"><br>
+<br><input type="submit" value="submit">
+</form>
+</body>
+</html>
